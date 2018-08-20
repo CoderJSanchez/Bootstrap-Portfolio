@@ -1,0 +1,75 @@
+body{
+    background-image: url(img/circles-light.png);
+}
+
+.jumbotron{
+    width: 960px;
+}
+
+h1{
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+p{
+    color: #777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.navbar-brand{
+    background-color: #4aaaa5;
+    padding: 10px 10px;
+}
+
+#navWrapper{
+    width: 960px;
+}
+
+#selfiePic{
+    width: 190px;
+}
+
+#footer{
+    background-color: #666666;
+    height: 50px;
+    color: #fff;
+}
+
+footer{
+    background-color: #4aaaa5;
+    height: 60px;
+
+}
+
+/* ******PORTFOLIO CSS************ */
+
+#port1,
+#port2,
+#port3,
+#port4,
+#port5
+{
+    width: 250px;
+    position: relative;
+}
+
+.textBlock{
+    position: absolute;
+    top: 60%;
+    width: 81%;
+    height: 40px;
+    background-color: #4aaaa5;
+    color: #fff;
+    text-align: center;
+}
+
+
+/* ******CONTACT CSS************ */
+
+#submitButton{
+    background-color: #4aaaa5;
+}
+#submitButton:hover{
+    background-color: blue;
+    color: #fff;
+}
