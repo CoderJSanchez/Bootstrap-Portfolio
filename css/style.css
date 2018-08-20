@@ -1,6 +1,8 @@
 body{
-    background-image: url(img/circles-light.png);
+    background-image: url(/Users/juliosanchez/Desktop/smuClassWork/Bootstrap-Portfolio/img/circles-light.png);
 }
+/* I dont know why but the back-ground image would only work with the entire path listed */
+
 
 .jumbotron{
     width: 960px;
