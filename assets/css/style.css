@@ -1,0 +1,93 @@
+
+#mainHeader{
+    background-image: url('../img/julioSanchez1.jpg');
+
+    height: 100vh;
+}
+
+#arrowDown{
+    width: 100px;
+        position: relative;
+        left: 48%;
+        top: 150px;
+}
+
+
+#mainNav{
+    z-index: 2000;
+    background-color: #333;
+}
+
+#mainNav a{
+    color: white;
+}
+
+#aboutSection{
+    padding-top: 75px;
+    padding-bottom: 25px;
+
+    background-color: #222;
+    color: #ffe;
+}
+
+#portfolioSection{
+    padding-top: 75px;
+    padding-bottom: 25px;
+    background-color: #444;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+
+.headerText{
+    padding-top: 20%;
+    color: #fff;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 5em;
+    font-weight: 600;
+ 
+}
+
+
+
+.this{
+    color: purple;
+}
+
+.jumbotron{
+    background-color: #962c42;
+    color: white;
+}
+
+.secondHeading:hover{
+    letter-spacing: 1.5em;
+}
+
+#myImage{
+    position: absolute;
+} 
+
+
+#mainFooter{
+    height: 450px;
+    background-color: #222;
+    color: white;
+}
+
+#ytLogo{
+    width: 200px;
+}
+
+#twitterLogo{
+    width: 75px;
+}
+
+@media (max-width: 767.98px) {
+    .headerText{
+        font-size: 3em;
+    }
+ }
